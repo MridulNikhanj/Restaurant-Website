@@ -1,0 +1,73 @@
+.review{
+    padding: 5rem 0;
+    background:aqua;
+}
+
+.review_title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color:gold; 
+}
+.review_container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.review_box .checked{
+    color:black;
+}
+.review_box .review_text{
+    margin: 1rem 0;
+    color:darkslategrey;
+}
+.review_box{
+    text-align: center;
+    padding: 1rem;
+}
+.customer_photo img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin:auto
+}
+.topnav {
+    background-color: black !important;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: orange;
+    color: white;
+  }
+  .diff
+  {
+    background-color: aqua;
+    color: black !important;
+  }

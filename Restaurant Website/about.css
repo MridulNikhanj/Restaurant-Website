@@ -1,0 +1,351 @@
+*{
+    font-family: Monotype Corsiva;
+    border: 30px;
+}
+.firstthing{
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.pics{
+    border: 1px solid rgb(255, 247, 247);
+    margin-right: 70px;
+    height: 350px;
+    width: 400px;
+
+}
+.diffsec{
+    color:deeppink;
+}
+.catmain{
+    background-color:yellow;
+}
+
+.cattitle{
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-left: 105px;
+    border-right: 115px;
+    margin-right: 210px;
+    border-left: 30px;
+    background-color: plum;
+}
+.cattitle2{
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-left:105px ;
+    border-right: 200px;
+    margin-left: 250px;
+    margin-right: 170px;
+    background-color:plum;
+}
+.cattitle3{
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-left:105px ;
+    border-right: 70px;
+    margin-left: 200px;
+    margin-right: 70px;
+    background-color: plum;
+}
+.catogories{
+    position: relative;
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-right: 95px;
+}
+.starters{
+    display:block;
+    width: 100%;
+    padding-right: 30px;
+    /* border-radius: 20px; */
+}
+.starters_overlay{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.starters_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.starters_overlay:hover > *{
+    transform: translateY(0);
+}
+.starters_overlay:hover{
+    opacity:1;
+}
+.starters_title{
+    font-size: 2em;
+    font-weight: bold;
+} 
+
+.starters_description{
+    font-size: 1.25em;
+    margin-top:0.25cm;
+}
+
+.catogories2{
+    position: relative;
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-right: 95px;
+    margin-left: 15px;
+}
+.maincourse{
+    display:block;
+    width:400px;
+}
+
+.maincourse_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.maincourse_overlay:hover{
+    opacity:1;
+}
+.maincourse_title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:2.5em;
+}
+.maincourse_description{
+    font-size: 1.25em;
+    margin-top: 0.50em;
+}
+
+.maincourse_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.maincourse_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.catogories3{
+    position: relative;
+    width:400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 15px;
+
+}
+.drinks{
+    display: block;
+    width: 400px;
+    height: 225px;
+
+}
+.drinks_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.drinks_overlay:hover{
+    opacity:1;
+}
+
+.drinks_title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:.5em;
+    margin-left: 4em;
+}
+.drinks_description{
+    font-size: 1.25em;
+    margin-top: 0.50em;
+    margin-left: 5em;
+}
+
+.drinks_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.drinks_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.catogories4{
+    position: relative;
+    width:400px;
+    border: 1px solid black;
+    margin-right: 65px;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+.alcoholic{
+    display: block;
+    width: 400px;
+    top:10px;
+}
+.alcoholic_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+.alcoholic_overlay:hover{
+    opacity:1;
+}
+
+.alcoholic_title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:2.5em;
+    margin-left:3em;
+}
+
+.alcoholic_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.alcoholic_overlay:hover > *{
+    transform: translateY(0);
+}
+
+
+.catogories5{
+    position: relative;
+    width:400px;
+    margin-top: 110px;
+    border: 1px solid black;
+    margin-left: 75px;
+}
+.deserts{
+    display: block;
+    width: 400px;
+}
+.desert_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+.desert_overlay:hover{
+    opacity:1;
+}
+
+.deserts_title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:2.5em;
+    margin-left:3em;
+}
+
+.desert_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.desert_overlay:hover > *{
+    transform: translateY(0);
+}
+
+
+.catogories_line1{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+}
+.catogories_line2{
+    display: flex;
+}
+#types{
+    color:deeppink;
+    font-size: 30px;
+}
+.topnav {
+    background-color: black !important;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: orange;
+    color: white;
+  }
+  .diff
+  {
+    background-color: aqua;
+    color: black !important;
+  }

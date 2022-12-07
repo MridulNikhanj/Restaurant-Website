@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contactForm.css">
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="Logo.png" class="logo" alt="">
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu1.html">Menu</a></li>
+      <li><a href="offer.html">Our Offers</a></li>
+      <li><a href="review.html">Reviews</a></li>
+      <li><a href="contactForm.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="con-head">
+    <h1>Contact Us</h1>
+  </div>
+
+
+
+  <div class="container">
+    <form>
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Email</label>
+      <input type="text" id="email" name="email" placeholder="Email address..">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <button class="submit" onclick="Messageonclick()">Submit</button>
+
+    </form>
+  </div>
+
+  <!-- footer  -->
+
+
+  <section>
+    <footer class="footer">
+
+      <div class="footer-text">
+        <h3>Northern Delight</h3>
+        <p>The best North Indian Cuisine, now in your city!</p>
+      </div>
+
+      <div class="footer-details">
+        <p>Call Us : +91 999999999</p>
+        <p>Email : info@notherndelight.com</p>
+        <p>Near LPU Main Gate, Grand Trunk Road Jaladhar</p>
+      </div>
+
+
+      <div class="main-footer-class">
+        <div class="footer-container">
+
+          <div class="footer-items">
+            <img src="facebook.png" alt=" not found">
+          </div>
+
+          <div class="footer-items">
+            <img src="instagram.png" alt=" not found">
+          </div>
+
+          <div class="footer-items">
+            <img src="twitter.png" alt=" not found">
+          </div>
+
+          <div class="footer-items">
+            <img src="youtube.png" alt=" not found">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="copyright">Copyright &#169 2022</div>
+
+    </footer>
+  </section>
+
+  <script>
+    function Messageonclick() {
+      alert("Thanks for contacting us!");
+    }
+  </script>
+
+</body>
+</html>
